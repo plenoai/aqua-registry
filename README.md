@@ -32,7 +32,6 @@ registries:
     type: github_content
     repo_owner: plenoai
     repo_name: aqua-registry
-    ref: semver(">= 0.0.0") # or a specific ref
     path: registry.yaml
 packages:
   - registry: plenoai
